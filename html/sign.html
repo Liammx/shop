@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/sign.css">
+</head>
+<body>
+    <button id="back" style="background: transparent;">back</button>
+    <div id="registration-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Registration</h2>
+            <form id="registration-form">
+                <input type="text" id="name" name="name" placeholder="First Name" required>
+                <input type="text" id="surname" name="surname" placeholder="Last Name" required>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                <button type="submit">Registration</button>
+            </form>
+        </div>
+    </div>
+    <script src="../js/sign.js"></script>
+</body>
+</html>

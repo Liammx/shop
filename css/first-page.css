@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.first-page{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #000;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background: #000;
+}
+.logo{
+    cursor: pointer;
+}
+#crisp{
+    width: 100px;
+    height: 40px;
+    border: 3px solid white;
+    cursor: default;
+}
+.homes{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 900px;
+    height: 50px;
+    gap: 50px;
+}
+.homes h1{
+    font-size: 24px;
+    font-weight: 100;
+}
+button:hover{
+    border-bottom: 3px solid  #EB5757;
+    border-right: #EB5757;
+}
+
+button{
+    border: 1px solid;
+    width: 100px;
+    height: 40px;
+    font-size: 24px;
+    background: transparent;
+    color: aliceblue;
+    cursor: pointer;
+    border-top: #000;
+    border-left: #000;
+    border-bottom: #000;
+    border-right: #000;
+}
+#input{
+    display: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-top:1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom:1px solid #ffffff;
+    background: #000;
+    position: absolute;
+    left: 750px;
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+}
+#h{
+    text-align: center;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 1025px;
+    bottom: 40px;
+    display: none;
+}
+#h:hover{
+    border: 2px solid red;
+    color: red;
+}
+#contact-us{
+    width: 190px;
+}
+.sign-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#searchs{
+    width: 170px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#create{
+    width: 270px;
+    height: 40px;
+}
+#heart{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+#shopify{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+#heart:hover{
+    border-radius: 1px solid ;
+    color:#000;
+    background: #EB5757;
+}
+.for-img{
+    width: 100%;
+    height: 89%;
+    padding: 10px 10px ;
+}
+.img1{
+    padding: 10px 10px;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://s3-alpha-sig.figma.com/img/c983/7c18/9d2a344e886fa825c240bef3735415c7?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kZ7u3CvLF1W7O9ZCptn9NSKpLdbjnunuLKOUNq4P--Oy0SNlLz-C3IDeIwmQl2sEcpLWPdHuwljhhpX980uGfHB5PUbY2j0tgbspTLS2zW4NCKaSViv1j2794xse6ZCC9ixeEOjIRRouUWWshb8R-hBridnY2F-paKuM-XYDLMgaEG-WjEZGQ4Pc3D3hwQIACab2iuPykmv4R5HsNO1QeoXxY-7mxgzaXKRxcMTKddfelfHW2ZHBqzacH0mLU2otyjagqrwu-G7bTjksTbWzxXbUTY8RkFR2JsPQoplYrJIUiyNg35TZJ5mE7eULHULtJkDtsK08JLzI8TU3rL-Kvw__');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.for-items{
+    /* border: 1px solid #000; */
+    height: 709px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 70px;
+}
+.txt1{
+    /* border: 1px solid #000; */
+    border-top-width: thin;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    height: 450px;
+    width: 750px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 48px;
+}
+#shop-now{
+    margin-top: 40px;
+    font-weight: 400;
+    color: #000;
+    border: 2px solid #000;
+    width: 175px;
+    height: 56px;
+    top: 676px;
+    left: 255px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.swiper-container {
+    width: 600px;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.swiper-wrapper {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.swiper-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.swiper-slide img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    height: 400px;
+}
+
+#img{
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+}
+.end-page{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: end;
+}
+#prev{
+    width: 50px;
+    height: 50px;
+    background: #000;
+}
+#next{
+    width: 50px;
+    height: 50px;
+    background: #000;
+}
+#prev:hover{
+    border-bottom: 1px solid #000;
+}
+#next:hover{
+    border-bottom: 1px solid #000;
+}
+
+/* .swiper-button-prev {
+    left: 10px;
+}
+
+.swiper-button-next {
+    right: 10px;
+} */
